@@ -1,1 +1,3 @@
 # Memory-allocator
+
+The program is designed to simulate the behavior of the standard C library functions: malloc, calloc, free, and realloc. These functions are essential for dynamic memory allocation in C programs. By simulating their behavior, the program aims to help users better understand how these functions work and how they can be used in their own programs. In addition to simulating the standard C library functions, the program also includes additional utility functions to monitor the state and consistency of the heap area. Users can reset the heap to its initial state and request the system to increase the heap region size. The program also includes debug features like "fences" to detect memory corruption or other errors in memory management.
